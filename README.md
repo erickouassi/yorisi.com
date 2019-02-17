@@ -1,1 +1,1 @@
-# yorisi.com
+# https://yorisi.com
