@@ -3,6 +3,12 @@
 
 # Changelog
 
+* February 27, 2019
+
+Added plugin
+
+Revised products page
+
 * February 19, 2019
 
 Removed tawk chat and installed HubSpot chat.
