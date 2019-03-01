@@ -3,6 +3,10 @@
 
 # Changelog
 
+* March 01, 2019
+
+Added products to the shop
+
 * February 28, 2019
 
 Theme & plugins update
