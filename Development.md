@@ -3,6 +3,10 @@
 
 # Changelog
 
+* February 28, 2019
+
+Theme & plugins update
+
 * February 27, 2019
 
 Added plugin
