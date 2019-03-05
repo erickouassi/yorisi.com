@@ -3,6 +3,10 @@
 
 # Changelog
 
+* 3/04/2019
+
+Shop images updaded
+
 * 3/01/2019
 
 Added products to the shop
