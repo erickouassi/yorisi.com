@@ -3,6 +3,10 @@
 
 # Changelog
 
+* 3/05/2019
+
+Removed plugin
+
 * 3/04/2019
 
 Shop images updaded
