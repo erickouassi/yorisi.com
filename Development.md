@@ -7,6 +7,8 @@
 
 Removed plugin
 
+Added new page for referral program
+
 * 3/04/2019
 
 Shop images updaded
