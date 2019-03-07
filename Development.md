@@ -3,6 +3,10 @@
 
 # Changelog
 
+* 3/06/2019
+
+Marketing
+
 * 3/05/2019
 
 Removed plugin
