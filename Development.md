@@ -41,3 +41,7 @@ Removed tawk chat and installed HubSpot chat.
 * 2/26/2019
 
 Removed gmail from the chat 
+
+* 4/29/2019
+
+Manual plugins update
