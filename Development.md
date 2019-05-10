@@ -45,3 +45,7 @@ Removed gmail from the chat
 * 4/29/2019
 
 Manual plugins update
+
+* 5/9/2019
+
+Manual plugins update
