@@ -1,4 +1,4 @@
-# Contributors & Developers
+*# Contributors & Developers
 @erickouassi
 
 # Changelog
@@ -53,3 +53,7 @@ Manual plugins update
 * 5/21/2019
 
 Manual plugins update
+
+* 6/19/2019
+
+Manual plugins update 
