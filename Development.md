@@ -61,3 +61,7 @@ Manual plugins update
 * 7/3/2019
 
 Manual plugins update 
+
+* 7/11/2019
+
+Update business plan document 
