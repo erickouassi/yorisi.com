@@ -65,3 +65,9 @@ Manual plugins update
 * 7/11/2019
 
 Update business plan document 
+
+
+* 7/12/2019
+
+Update business plan document: SWOT analysis 
+
