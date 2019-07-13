@@ -71,3 +71,7 @@ Update business plan document
 
 Update business plan document: SWOT analysis 
 
+* 7/12/2019
+
+Update business plan document: Startup Costs
+
