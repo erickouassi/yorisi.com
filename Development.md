@@ -75,3 +75,8 @@ Update business plan document: SWOT analysis
 
 Update business plan document: Startup Costs
 
+* 8/12/2019
+
+Manual plugins update
+
+
