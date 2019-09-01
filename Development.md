@@ -79,4 +79,8 @@ Update business plan document: Startup Costs
 
 Manual plugins update
 
+* 8/31/2019
+
+Manual plugins update & theme
+
 
