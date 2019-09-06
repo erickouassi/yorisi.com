@@ -1,1 +1,0 @@
-# https://yorisi.com
