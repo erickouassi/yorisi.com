@@ -23,8 +23,12 @@ a:link {
   text-decoration: none;
    color: white;
 }
-
-  .jumbotron {
+/* mouse over link */
+a:hover {
+  color: #f4511e;
+}
+  
+.jumbotron {
     background-color: #f4511e;
     color: #fff;
     padding: 100px 25px;
@@ -112,6 +116,11 @@ a:link {
     background-color: #f4511e;
     color: #fff;
   }
+
+.col-sm-12{
+  
+  
+}
   .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
@@ -182,3 +191,25 @@ a:link {
       font-size: 150px;
     }
   }
+
+/* My Skills*/
+.html {
+  width: 85%; 
+  background-color: #f4511e;
+  color: #303030;
+}
+.react {
+  width: 75%; 
+  background-color: #f4511e;
+  color: #303030;
+}
+.d3js {
+  width: 65%; 
+  background-color: #f4511e;
+  color: #303030;
+}
+.wordpress {
+  width: 90%;
+  background-color: #f4511e;
+  color: #303030;
+}
