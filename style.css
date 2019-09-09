@@ -3,7 +3,7 @@
  body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181; // #818181   Red: DB2723
+    color: #818181; 
   }
   h2 {
     font-size: 24px;
@@ -18,10 +18,11 @@
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-  }  
+  } 
+
 a:link {
   text-decoration: none;
-   color: white;
+   
 }
 /* mouse over link */
 a:hover {
@@ -101,6 +102,8 @@ a:hover {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+
+/* footer */
   .panel-footer {
     background-color: white !important;
   }
@@ -117,10 +120,6 @@ a:hover {
     color: #fff;
   }
 
-.col-sm-12{
-  
-  
-}
   .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
@@ -213,3 +212,12 @@ a:hover {
   background-color: #f4511e;
   color: #303030;
 }
+
+
+/* footer */ 
+.copy-text{
+  color: black;
+  }
+  
+
+
