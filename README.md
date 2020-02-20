@@ -1,6 +1,6 @@
 # Check List / Milestone
 
-* Business Name Availability Check: Completed
+* Business Name Availability Check: `Completed`
 
 * Business Incorporation: Completed
 
