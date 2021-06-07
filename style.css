@@ -149,10 +149,22 @@ a:hover {
     border-color: transparent;
     color: #fff !important;
   }
-  footer .glyphicon {
-    font-size: 20px;
+  footer .toTop {
+    font-size: 30px;
     margin-bottom: 20px;
     color: #DB2723;
+  }
+
+  .btnquote {
+    font-family: "Poppins",Sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #fff;
+    background-color: #DB2723;
+    border-radius: 0;
+    padding: 20px 42px;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -198,27 +210,9 @@ a:hover {
     }
   }
 
-/* Our values*/
-.simple {
-  width: 98%; 
-  color: #303030;
-}
-.improvement {
-  width: 95%; 
-  color: #303030;
-}
-.transparency {
-  width: 91%; 
-  color: #303030;
-}
-.doing {
-  width: 85%;
-  color: #303030;
-}
-.less {
-  width: 80%; 
-  color: #303030;
-}
+/* Our values 
+
+*/
 
 .value{
 padding:2px;
