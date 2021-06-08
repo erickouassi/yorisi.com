@@ -67,21 +67,97 @@
     <div class="row">
       <div class="col-sm-8">
         <h2>Request a quote</h2><br>
-        <p>YORISI LLC is a legal entity formed in New York that provide websites plus business consulting services remotely over phone 
-          or videoconferencing.  
-          For the business consulting part, it is a service we offer, by suggesting tools and services to help you as well 
-          and teach you how to use them effectively.
-          While we do not want to interfere with any practices you may already have in place, 
-          we will advise you how to incorporate small changes to fit with your new webapp or website.</p> 
-          <form>
-            <input type="button" class="btnquote" value="Request an estimate" onclick="location.href='/quote.html';">
-          </form> 
+        <p>We'd Love to Help You With Your Website Success!</p> 
+        <div>
+          <br>
+          <!-- Contact Form - sent to a Google Sheet -->
+    <form id='foo' method="post">
+      <p>
+        <label>Name</label>
+        <input id='name' name='name' type='text'>
+      </p><p>
+        <label>Email Address</label>
+        <input id='email' name='email' type='email'>
+      </p><p>
+        <label>Phone Number</label>
+        <input id='phone' name='phone' type='tel'>
+      </p><p>
+        <label>Message</label>
+        <textarea id='message' name='message' rows='5'></textarea>
+      </p>
+        <div id='success'></div>
+        <button type='submit'>Request an estimate</button>
+    </form>
+        </div>
       </div>
       <div class="col-sm-4">
         <span class="fas fa-comment-dollar logo"></span>
       </div>
     </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script>
+// Variable to hold request
+var request;
+
+// Bind to the submit event of our form
+$("#foo").submit(function(event){
+
+    // Abort any pending request
+    if (request) {
+        request.abort();
+    }
+    // setup some local variables
+    var $form = $(this);
+
+    // Let's select and cache all the fields
+    var $inputs = $form.find("input, select, button, textarea");
+
+    // Serialize the data in the form
+    var serializedData = $form.serialize();
+
+    // Let's disable the inputs for the duration of the Ajax request.
+    // Note: we disable elements AFTER the form data has been serialized.
+    // Disabled form elements will not be serialized.
+    $inputs.prop("disabled", true);
+
+    // Fire off the request to /form.php
+    request = $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbz1IOtC8lIuSYqSV_wdF_W4epwbEjHLwQufAje4sEXtTWxmDTQ5EDSQk2pHqHKG0gkW/exec",
+        type: "post",
+        data: serializedData
+    });
+
+    // Callback handler that will be called on success
+    request.done(function (response, textStatus, jqXHR){
+        // Log a message to the console
+        console.log("Hooray, it worked!");
+        console.log(response);
+        console.log(textStatus);
+        console.log(jqXHR);
+    });
+
+    // Callback handler that will be called on failure
+    request.fail(function (jqXHR, textStatus, errorThrown){
+        // Log the error to the console
+        console.error(
+            "The following error occurred: "+
+            textStatus, errorThrown
+        );
+    });
+
+    // Callback handler that will be called regardless
+    // if the request failed or succeeded
+    request.always(function () {
+        // Reenable the inputs
+        $inputs.prop("disabled", false);
+    });
+
+    // Prevent default posting of form
+    event.preventDefault();
+});
+  </script>
   
 </body>
 
