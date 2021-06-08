@@ -45,6 +45,7 @@
   <script src="/script.js" defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -68,25 +69,25 @@
       <div class="col-sm-8">
         <h2>Request a quote</h2><br>
         <p>We'd Love to Help You With Your Website Success!</p> 
-        <div>
+        <div class="container1">
           <br>
           <!-- Contact Form - sent to a Google Sheet -->
     <form id='foo' method="post">
       <p>
-        <label>Name</label>
-        <input id='name' name='name' type='text'>
+        <label>Name:</label>
+        <input id='name' name='name' type='text' required >
       </p><p>
-        <label>Email Address</label>
-        <input id='email' name='email' type='email'>
+        <label>Email Address:</label>
+        <input id='email' name='email' type='email' required >
       </p><p>
-        <label>Phone Number</label>
-        <input id='phone' name='phone' type='tel'>
+        <label>Phone Number:</label>
+        <input id='phone' name='phone' type='tel' required >
       </p><p>
-        <label>Message</label>
-        <textarea id='message' name='message' rows='5'></textarea>
+        <label>Message:</label>
+        <textarea id='message' name='message' rows='5' required ></textarea>
       </p>
         <div id='success'></div>
-        <button type='submit'>Request an estimate</button>
+        <input type="submit" value="Submit">
     </form>
         </div>
       </div>
