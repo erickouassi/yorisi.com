@@ -45,7 +45,6 @@
   <script src="/script.js" defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -67,39 +66,39 @@
   <div id="about" class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
-        <h2>Request a quote</h2><br>
-        <p>Send us a message. Fill in all fields. We’ll try to reply within 24 hours.</p> 
-        <div class="container1">
-          <br>
-          <!-- Contact Form - sent to a Google Sheet -->
-    <form id='foo' method="post">
-      <p>
-        <label>Name:</label>
-        <input id='name' name='name' type='text' required >
-      </p><p>
-        <label>Email Address:</label>
-        <input id='email' name='email' type='email' required >
-      </p><p>
-        <label>Phone Number:</label>
-        <input id='phone' name='phone' type='tel' required >
-      </p><p>
-        <label>Message:</label>
-        <textarea id='message' name='message' rows='5' required ></textarea>
-      </p>
-      <!-- Add a honeypot -->
-      <div>Blocking spam <i class="fas fa-user-secret"></i></div> <br>
-      <input id='fill-me-in' name='userfake' type=checkbox value="1" style="display:none !important" 
-             tabindex="-1" autocomplete="false"/>
-      <!-- End of honeypot -->
-      <p>By submitting this form, you accept that we may use your information for future coresspondence. 
-        To learn more, please refer to our <a href="/privacyolicy.html"> Privacy Policy</a></p>
-        <div id='success'></div>
-        <input type="submit" value="Submit">
-    </form>
-        </div>
+        <h2>Get Free Consultation for website + business consulting</h2><br>
+        <p>Schedule a consultation for further explanation by our specialist.</p> 
+            <br>
+            <div class="container1">
+                <br>
+                <!-- Contact Form - sent to a Google Sheet -->
+          <form id='foo' method="post">
+            <p>
+              <label>Name:</label>
+              <input id='name' name='name' type='text' required >
+            </p><p>
+              <label>Email Address:</label>
+              <input id='email' name='email' type='email' required >
+            </p><p>
+              <label>Phone Number:</label>
+              <input id='phone' name='phone' type='tel' required >
+            </p><p>
+              <label>Message:</label>
+              <textarea id='message' name='message' rows='5' required ></textarea>
+            </p>
+            <!-- Add a honeypot -->
+            <div>Blocking spam <i class="fas fa-user-secret"></i></div> <br>
+            <input id='fill-me-in' name='userfake' type=checkbox value="1" style="display:none !important" 
+                   tabindex="-1" autocomplete="false"/>
+            <!-- End of honeypot -->
+              <div id='success'></div>
+              <input type="submit" value="Submit">
+          </form>
+              </div>
+            <input type="button" class="btn" value="Return to homepage" onclick="location.href='/index.html'">
       </div>
       <div class="col-sm-4">
-        <span class="fas fa-comment-dollar logo"></span>
+        <span class="fas fa-project-diagram logo"></span>
       </div>
     </div>
   </div>
